@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.fade-anim .mycards{
+ animation: fadeAnim 0.9s ease-in-out;
+}
+@keyframes fadeAnim {
+  from{
+    opacity: 0;
+  }
+  to{
+   
+    opacity: 5;
+  }
+}
+.pop-anim .popout{
+ animation: popanim 0.5s ease;
+}
+@keyframes popanim {
+  from{
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  to{
+    width: 50%;
+    height: 50%;
+    opacity: 5;
+  }
+}
+.fade-anime .mycards-1{
+  animation: fadeAnime 0.9s ease-in-out;
+ }
+ @keyframes fadeAnime {
+   from{
+     transition: all;
+     opacity: 0.1;
+   }
+   to{
+     opacity: 0.3;
+   }
+ }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
