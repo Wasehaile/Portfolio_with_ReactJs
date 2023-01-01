@@ -1,10 +1,10 @@
 import { useRef } from 'react';
 import { useState } from 'react';
-import Me from '../../assets/Me.png'
-import ContactForm from '../custom/ContactForm';
+import Me from '../assets/Me.png'
+import ContactForm from '../components/custom/ContactForm';
 import { motion,AnimatePresence } from "framer-motion"
 import { FaArrowDown } from 'react-icons/fa';
-import DownloadPDF from '../CustomHook/DownloadCV';
+import DownloadPDF from '../components/CustomHook/DownloadCV';
 
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
    popref.current.classList.add("pop-anim")
   }
     return ( 
-        <div ref={popref} className='relative h-full pb-52 bg-bgprimary'>
+        <div ref={popref} className='relative h-50vh pb-52 bg-bgprimary'>
         <div className='flex  flex-wrap '>
            <div className='md:mt-10 flex-1 flex items-center justify-center '>
             <motion.span initial={{scale:0}} animate={{scale:1}} transition={{delay:0.3}} className='md:w-96 md:h-96 md:rounded-[150px] absolute border-secondary border-8 rounded-[100px] w-60 h-60 animate-spin-slow'/>
