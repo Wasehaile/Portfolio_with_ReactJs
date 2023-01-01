@@ -24,7 +24,7 @@ const Home = () => {
                <motion.img whileHover={{scale:1.1}} initial={{scale:0}} animate={{scale:1}} transition={{delay:0.2}} className='md:w-96 absolute rounded-b-full w-52 -mt-8' src={Me} alt="" />
            </div>
            <motion.div initial={{scale:0}} animate={{scale:1}} transition={{delay:0.4}} className='md:items-start md:text-start md:text-md md:mt-20 flex flex-col items-center text-center flex-1 mt-10'>
-            <h1 className='md:text-4xl text-primary text-xl'>Hi!<br/><p className='text-secondary'>My name is Wasyhun H/melekot</p>Welcome to my personal Webpage</h1>
+            <h1 className='md:text-3xl font-extralight text-primary text-xl'>Hi!<br/><p className='text-secondary font-semibold'>My name is Wasyhun H/melekot</p>Welcome to my personal Webpage</h1>
             <div className='my-5 bg-secondary w-24 h-1'/>
             <p className='md:text-xl md:w-2/3 text-sm w-3/4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iure dicta ducimus in maiores soluta recusandae, laborum ut! Error omnis modi ullam ab consectetur vel earum culpa libero veritatis. Illo?</p>
            <div className='md:flex-row flex flex-col'>

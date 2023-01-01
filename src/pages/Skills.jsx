@@ -23,7 +23,7 @@ function Skills() {
   return (
     <div ref={ref} className='bg-hero-pattern bg-cover bg-no-repeat bg-fixed bg-opacity-5 p-5'>
       <h1 className='md:text-4xl md:text-start text-center text-primary text-xl'>Skills</h1>
-      <div className='my-5 bg-secondary w-24 h-1'/>
+      <div className='my-5 bg-secondary w-32 h-1'/>
         <div className=' flex justify-center items-center md:flex-row flex-col'>
            <motion.div ref={ref} initial="hidden" variants={variant} animate={control} transition={{delay:0.2,duration:1}} > {Cards[0]}</motion.div>
            <motion.div ref={ref} initial="hidden" variants={variant} animate={control} transition={{delay:0.5,duration:1}} > {Cards[1]}</motion.div>

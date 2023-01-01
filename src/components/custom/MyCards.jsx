@@ -10,8 +10,8 @@ function MyCards(
 ) {
   return (
     <div className='flex m-4 mt-10'>
-        <div className='bg-white w-72 h-80 text-primary shadow-xl rounded-xl hover:bg-primary hover:w-72 hover:text-white  transition-all'>
-         <h1 className='m-4 font-semibold text-lg'>{title}</h1>
+        <div className='bg-white w-72 h-80 text-primary shadow-2xl rounded-xl hover:bg-primary hover:w-72 hover:text-white  transition-all'>
+         <h1 className='m-4 font-semibold text-2xl'>{title}</h1>
          <div className='m-4 my-5 bg-secondary w-20 h-0.5 transition-all'/>
          <div className='flex mt-10  flex-col items-center'>
          <img className='w-40' src={image} alt="" />
